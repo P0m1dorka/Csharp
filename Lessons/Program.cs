@@ -8,31 +8,18 @@ try
     Console.WriteLine("Введи количество элементов в строке");
     int elem = Convert.ToInt32(Console.ReadLine());   
     int[,] mass = new int[strok,elem];
-    Methods mt = new Methods(mass,dynmass);
-    mt.ZachislRand();
-    mt.Nomer1();
-    mt.Print();
-    mt.PrintDynam();
-    mt.Nomer2();
-    mt.Print();
-    mt.PrintDynam();
-    mt.Nomer3();
+    Methods mth = new Methods(mass, dynmass);
+    mth.ZachislRand();
+    mth.Nomer1();
+    mth.Print();
+    mth.PrintDynam();
+    mth.Nomer2();
+    mth.Print();
+    mth.PrintDynam();
+    mth.Nomer3();
 }
 catch (Exception)
 {
 Console.WriteLine("Вы ввели неправильный формат");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
