@@ -1,1 +1,2 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("na menya glyadit igrivo pivo pivo pivo pivo");
+ 
