@@ -25,33 +25,7 @@ namespace testDrink
     {
         public static void Main(string[] args)
         {
-            Random rnd = new Random();
-            Console.WriteLine("Start");
-            Beverage _beverage;
-            List<Liquid> _liquid = new List<Liquid>(1);
-            Console.WriteLine("Сколько видов жидкостей?");
-            Int32 types = Convert.ToInt32(Console.ReadLine());
-            for (int j = 0; j < types; j++)
-            {
-                TypeDrinks _typeDrink = TypeDrinks.vodka;
-                Int32 test = rnd.Next(0, 10);
-                bool pal = true;
-                if (test <= 5)
-                {
-                    pal = true;
-                }
-                else
-                {
-                    pal = false;
-                }
-                Console.WriteLine("Сколько жидкости добавили?");
-                double weight = Convert.ToDouble(Console.ReadLine());
-                Liquid _object = new Liquid(pal, _typeDrink, weight);
-                _liquid.Add(_object);
-            }
-            Beverage objectsss = new Beverage(_liquid, Convert.ToDouble(25));
-            _beverage = objectsss;
-            _beverage.PrintInfo();
+            Console.WriteLine("");
         }
     }
 }
