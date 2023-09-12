@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loginov_CatFramework", "Loginov_CatFramework\Loginov_CatFramework.csproj", "{CE13DB8E-A211-4A77-BBC5-3AE884213759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9385D583-1DBA-4D88-8D00-DCC79B9263B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE13DB8E-A211-4A77-BBC5-3AE884213759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE13DB8E-A211-4A77-BBC5-3AE884213759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE13DB8E-A211-4A77-BBC5-3AE884213759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE13DB8E-A211-4A77-BBC5-3AE884213759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9385D583-1DBA-4D88-8D00-DCC79B9263B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9385D583-1DBA-4D88-8D00-DCC79B9263B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9385D583-1DBA-4D88-8D00-DCC79B9263B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9385D583-1DBA-4D88-8D00-DCC79B9263B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
