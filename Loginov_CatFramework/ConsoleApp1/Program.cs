@@ -45,14 +45,13 @@ void DisplayCAtInfo(Cat[] catsArr)
           link2:
           try
           {
-              fluffiness = rnd.Next(-21,121);
+              fluffiness = rnd.Next(-21, 121);
               massiv[i] = new CuteCat(fluffiness);
           }
           catch
           {
               goto link2;
           }
-          
       }
   }
   return massiv;
