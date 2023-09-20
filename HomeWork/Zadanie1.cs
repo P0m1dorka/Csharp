@@ -2,19 +2,22 @@
 using HomeWork;
 
 Console.WriteLine("Zadanie 1");
-List<object> list = new List<object>();
+Random rnd = new Random();
+List<object> list = new List<object>(5);
 for (int i = 0; i < 5; i++)
 {
-    list.Add(Console.ReadLine());
-    if (list[i] is double)
+    if (rnd.NextDouble() < 0.5)
     {
-        Console.WriteLine("sstring");
+        list.Add(rnd.Next(-20,20));
+    }
+    else
+    {
+        list.Add(rnd.NextDouble()*rnd.Next(-20,20));
     }
 }
-Console.WriteLine("ssssssss");
 for (int i = 0; i < list.Count; i++)
 {
-    Console.WriteLine(list[i]);
+    Console.WriteLine( $"{i} - " + list[i]);
 }
 Summ(list);
 Console.WriteLine("Zadanie 2");
